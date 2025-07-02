@@ -1,0 +1,22 @@
+# Allow pip-tools to find Apple-Metal or CUDA wheels for torch
+--extra-index-url https://download.pytorch.org/whl/metal.html
+
+# core libs
+ipykernel
+pandas
+tensorflow
+tf-keras
+transformers
+sentence-transformers
+seaborn
+# PyTorch + extras
+torch
+torchvision
+torchaudio
+
+# visualization
+bertviz
+
+# pin IPython to a release that still exports display/HTML/Javascript
+ipython==8.12.0
+ipywidgets
